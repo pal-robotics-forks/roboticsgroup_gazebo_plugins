@@ -141,6 +141,8 @@ void MimicJointPlugin::Load(physics::ModelPtr _parent, sdf::ElementPtr _sdf )
   if(!has_pid_)
     mimic_joint_->SetMaxForce(0,max_effort_);
 
+  ROS_INFO_STREAM("MimicJointPlugin will mimic '" << joint_name_ << "' (real joint) movement to joint '" << mimic_joint_name_ << "'.");
+
   // Listen to the update event. This event is broadcast every
   // simulation iteration.
   this->updateConnection = event::Events::ConnectWorldUpdateBegin(
