@@ -28,3 +28,10 @@ target_link_libraries(roboticsgroup_gazebo_mimic_joint_plugin ${catkin_LIBRARIES
 add_library(roboticsgroup_gazebo_disable_link_plugin src/disable_link_plugin.cpp)
 target_link_libraries(roboticsgroup_gazebo_disable_link_plugin ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
 
+
+install(TARGETS roboticsgroup_gazebo_mimic_joint_plugin roboticsgroup_gazebo_disable_link_plugin
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+  )
+
