@@ -2,8 +2,8 @@
 Changelog for package roboticsgroup_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.2 (2016-10-12)
+------------------
 * Added install rules
 * Add verbose mention that we are loading the plugin and with what
 * Merge pull request #3 from tu-darmstadt-ros-pkg/add_set_force_for_pid_option_pr_upstream
