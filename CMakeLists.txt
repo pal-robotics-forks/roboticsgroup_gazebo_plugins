@@ -8,6 +8,8 @@ find_package(catkin REQUIRED COMPONENTS
   control_toolbox
 )
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+
 # Depend on system install of Gazebo
 find_package(gazebo REQUIRED)
 find_package(Boost REQUIRED)

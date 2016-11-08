@@ -139,7 +139,7 @@ void MimicJointPlugin::Load(physics::ModelPtr _parent, sdf::ElementPtr _sdf )
   
   // Set max effort
   if(!has_pid_)
-    mimic_joint_->SetMaxForce(0,max_effort_);
+    //mimic_joint_->SetMaxForce(0,max_effort_);
 
   ROS_INFO_STREAM("MimicJointPlugin will mimic '" << joint_name_ << "' (real joint) movement to joint '" << mimic_joint_name_ << "'.");
 
@@ -168,7 +168,7 @@ void MimicJointPlugin::UpdateChild()
       mimic_joint_->SetForce(0, effort);
     }
     else
-      mimic_joint_->SetAngle(0, math::Angle(angle));
+      mimic_joint_->SetPosition(0, angle);
   }
 }
 
