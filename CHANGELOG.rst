@@ -2,8 +2,8 @@
 Changelog for package roboticsgroup_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2018-01-22)
+------------------
 * change pid gains namespace
 * Contributors: Jordi Pages
 
