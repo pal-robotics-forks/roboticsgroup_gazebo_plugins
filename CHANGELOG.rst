@@ -2,8 +2,8 @@
 Changelog for package roboticsgroup_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.0 (2018-02-19)
+------------------
 * Merge branch 'dubnium-devel' into gazebo7
 * changed namespace for gains
 * Added gazebo7 support
