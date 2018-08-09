@@ -2,6 +2,14 @@
 Changelog for package roboticsgroup_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'error_to_debug' into 'erbium-devel'
+  Error to debug
+  See merge request common/roboticsgroup_gazebo_plugins!1
+* added changed error message to debug
+* Contributors: Hilario Tome, Victor Lopez
+
 0.1.0 (2018-02-19)
 ------------------
 * Merge branch 'dubnium-devel' into gazebo7
