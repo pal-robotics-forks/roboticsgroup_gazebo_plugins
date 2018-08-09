@@ -97,7 +97,7 @@ void MimicJointPlugin::Load(physics::ModelPtr _parent, sdf::ElementPtr _sdf )
     nh.param("p", p, 0.0);
     nh.param("i", i, 0.0);
     nh.param("d", d, 0.0);
-    ROS_ERROR_STREAM("PARSED, "<<mimic_joint_name_<<" p: "<<p<<" i: "<<i<<" d: "<<d);
+    ROS_DEBUG_STREAM("PARSED, "<<mimic_joint_name_<<" p: "<<p<<" i: "<<i<<" d: "<<d);
 
     pid_ = control_toolbox::Pid(p,i,d);
   }
