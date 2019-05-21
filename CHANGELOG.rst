@@ -2,6 +2,15 @@
 Changelog for package roboticsgroup_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'melodic_fixes' into 'erbium-devel'
+  Melodic fixes
+  See merge request common/roboticsgroup_gazebo_plugins!2
+* added gazebo version macro commands
+* added gazebo 9 and melodic changes
+* Contributors: Sai Kishor Kothakota, Victor Lopez
+
 0.1.1 (2018-08-09)
 ------------------
 * Merge branch 'error_to_debug' into 'erbium-devel'
