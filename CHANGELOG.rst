@@ -2,6 +2,11 @@
 Changelog for package roboticsgroup_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add SYSTEM include_directories
+* Contributors: Victor Lopez
+
 0.1.2 (2019-05-21)
 ------------------
 * Merge branch 'melodic_fixes' into 'erbium-devel'
