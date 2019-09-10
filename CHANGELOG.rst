@@ -2,8 +2,8 @@
 Changelog for package roboticsgroup_gazebo_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.3 (2019-09-10)
+------------------
 * Add SYSTEM include_directories
 * Contributors: Victor Lopez
 
